@@ -3,25 +3,41 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
+body{
+  background-color: #9a67cc;
+  color: #b2ffa8;
+  overflow-x: hidden;
+}
+
 header {
   padding: 156px 0 100px;
+  background-color: #8559b1;
+}
+
+h2{
+  color: #56ff7a;
 }
 
 section {
-  padding: 150px 0;
+  padding: 150px 0 30px 0;
 }
+
 
 img{
   width: 100%;
   height: auto;
+  padding: 20px 0;
 }
 
 #disqus_thread{
-  padding: 15% 5%;
+  width: 95%;
+  padding: 0 5%;
 }
 
 .modal-content{
-  border-radius: 0;
+  border-radius: 50px;
+  background-color: #9a67cc;
 }
 
 .modal-body{
@@ -30,4 +46,8 @@ img{
 
 .description{
   padding: 5%;
+}
+
+.sticky-top{
+  top: 10%;
 }
