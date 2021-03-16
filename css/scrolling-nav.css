@@ -5,18 +5,18 @@
  */
 
 body{
-  background-color: #9a67cc;
-  color: #b2ffa8;
+  background-color: #EFFBF1;
+  color: #000000;
   overflow-x: hidden;
 }
 
 header {
   padding: 156px 0 100px;
-  background-color: #8559b1;
+  background-color: #EFFBF1;
 }
 
 h2, h1{
-  color: #56ff7a;
+  color: #C226F7;
   font-family: 'space_grotesklight';
   font-size: 4em;
 }
@@ -56,4 +56,8 @@ img{
 
 p{
   font-family: 'telegrafregular';
+}
+
+mark{
+  background-color: #D785F8;
 }
