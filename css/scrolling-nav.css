@@ -8,6 +8,7 @@ body{
   background-color: #9a67cc;
   color: #b2ffa8;
   overflow-x: hidden;
+  font-family: 'space_grotesklight';
 }
 
 header {
@@ -15,8 +16,45 @@ header {
   background-color: #8559b1;
 }
 
+@font-face {
+  font-family: 'space_grotesklight';
+  src: url('spacegrotesk-variablefont_wght-webfont.woff2') format('woff2'),
+       url('spacegrotesk-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'telegrafregular';
+  src: url('telegraf-regular-webfont.woff2') format('woff2'),
+       url('telegraf-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'telegrafultrabold';
+  src: url('telegraf-ultrabold-webfont.woff2') format('woff2'),
+       url('telegraf-ultrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'telegrafultralight';
+  src: url('telegraf-ultralight-webfont.woff2') format('woff2'),
+       url('telegraf-ultralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 h2{
   color: #56ff7a;
+  font-family: 'space_grotesklight';
 }
 
 section {
