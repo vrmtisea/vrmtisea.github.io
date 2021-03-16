@@ -18,11 +18,27 @@ header {
 h2, h1{
   color: #C226F7;
   font-family: 'space_grotesklight';
-  font-size: 4em;
+  font-size: 2em;
 }
 
 section {
   padding: 150px 0 30px 0;
+}
+
+.tropezones{
+  padding-left: 30%;
+  margin-bottom: 60px;
+  font-family: 'telegrafregular';
+}
+
+.tropezones p{
+  font-size: 1.5em;
+}
+
+.bechamel{
+  padding-right: 30%;
+  margin-bottom: 20px;
+  font-family: 'telegrafregular';
 }
 
 
@@ -55,7 +71,6 @@ img{
 }
 
 p{
-  font-family: 'telegrafregular';
 }
 
 mark{
