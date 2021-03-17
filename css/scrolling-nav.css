@@ -11,7 +11,7 @@ body{
 }
 
 header {
-  padding: 156px 0 100px;
+  padding: 50px 0 50px;
   background-color: #EFFBF1;
 }
 
@@ -24,7 +24,6 @@ h2, h1{
   color: #C226F7;
   font-family: 'space_grotesklight';
   font-size: 2em;
-  text-transform: lowercase;
   position: relative;
   left: 30%;
 }
@@ -37,11 +36,13 @@ h3{
 h4{
   color: #C226F7;
   font-family: 'space_grotesklight';
-  font-size: 2em;
+  font
+  -size: 2em;
 }
 
 .texto{
   width: 50%;
+  padding-top: 200px;
   padding-bottom: 500px;
 }
 
@@ -131,10 +132,8 @@ img{
   border-radius: 10px;
 }
 
-#lococo{
-  width: 50%;
-  height: auto;
-  padding: 20px 0;
+#logoco{
+  display: none;
 }
 
 #disqus_thread{
@@ -178,6 +177,14 @@ img{
 
   .modal-content{
     border-radius: 30px;
+  }
+
+  #logoco{
+    display: block;
+  }
+
+  .texto{
+    padding-top: 20px;
   }
 
   
