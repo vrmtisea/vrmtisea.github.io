@@ -23,6 +23,7 @@ h2, h1{
 
 .texto{
   width: 50%;
+  padding-bottom: 500px;
 }
 
 .imagenes{
@@ -36,6 +37,10 @@ h2, h1{
 @media only screen and (max-width: 800px) {
   .texto, .imagenes, .foro{
     width: 99%;
+  }
+
+  .texto{
+    padding-bottom: 100px;
   }
 
   .imagenes, .foro{
