@@ -34,23 +34,7 @@ h2, h1{
   width: 30%;
 }
 
-@media only screen and (max-width: 800px) {
-  .texto, .imagenes, .foro{
-    width: 99%;
-  }
 
-  .texto{
-    padding-bottom: 100px;
-  }
-
-  .imagenes, .foro{
-    padding: 0 10%;
-  }
-
-  body{ 
-    width: 96%;
-  }
-}
 
 
 section {
@@ -75,6 +59,37 @@ section {
   font-family: 'telegrafregular';
 }
 
+@media only screen and (max-width: 800px) {
+  .texto, .imagenes, .foro{
+    width: 99%;
+  }
+
+  .texto{
+    padding-bottom: 100px;
+  }
+
+  .imagenes, .foro{
+    padding: 0 10%;
+  }
+
+  body{ 
+    width: 96%;
+  }
+
+  h2, h1{
+    font-size: 2.3em;
+  }
+
+  .tropezones{
+    padding-right: 10%;
+    padding-left: 5%;
+  }
+  
+  .bechamel{
+    padding-right: 5%;
+    padding-left: 20%;
+  }
+}
 
 img{
   width: 100%;
