@@ -36,8 +36,7 @@ h3{
 h4{
   color: #C226F7;
   font-family: 'space_grotesklight';
-  font
-  -size: 2em;
+  size: 2em;
 }
 
 .texto{
@@ -104,7 +103,7 @@ section {
   }
 
   h2, h1{
-    font-size: 1.8em;
+    font-size: 1.4em;
   left: 0%;
   }
 
@@ -167,34 +166,6 @@ img{
 
 
 
-@media only screen and (max-width: 800px) {
-  .modal-dialog{
-    width: 80%;
-    max-width: 80%;
-
-    
-  }
-
-  #lococo{
-    width: 70%;
-    height: auto;
-    padding: 20px 0;
-  }
-
-  .modal-content{
-    border-radius: 30px;
-  }
-
-  #logoco{
-    display: block;
-  }
-
-  .texto{
-    padding-top: 20px;
-  }
-
-  
-}
 
 .description{
   padding: 0 2% 2% 2%;
@@ -227,4 +198,35 @@ mark.sub_has{
   background-color: #effbf1;
   color: #C226F7;
   font-family: 'telegrafultrabold';
+}
+
+
+@media only screen and (max-width: 800px) {
+  .modal-dialog{
+    width: 80%;
+    max-width: 80%;
+
+    
+  }
+
+  #lococo{
+    width: 70%;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .modal-content{
+    border-radius: 30px;
+  }
+
+  #logoco{
+    display: block;
+  }
+
+  .texto{
+    padding-top: 20px;
+  }
+
+
+  
 }
