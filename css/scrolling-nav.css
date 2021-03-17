@@ -15,11 +15,21 @@ header {
   background-color: #EFFBF1;
 }
 
+.cabeza{
+  height: 10%;
+  min-height: 10%;
+}
+
 h2, h1{
   color: #C226F7;
   font-family: 'space_grotesklight';
-  font-size: 3em;
+  font-size: 2em;
+  text-transform: lowercase;
+  position: relative;
+  left: 30%;
 }
+
+
 
 .texto{
   width: 50%;
@@ -34,17 +44,14 @@ h2, h1{
   width: 30%;
 }
 
-
-
-
 section {
   padding: 150px 0 30px 0;
 }
 
 .tropezones{
-  padding-right: 30%;
-  padding-left: 5%;
-  margin-bottom: 60px;
+  padding-right: 5%;
+  padding-left: 30%;
+  margin-bottom: 30px;
   font-family: 'telegrafregular';
 }
 
@@ -54,9 +61,13 @@ section {
 
 .bechamel{
   padding-right: 5%;
-  padding-left: 30%;
+  padding-left: 5%;
   margin-bottom: 20px;
   font-family: 'telegrafregular';
+}
+
+.cursiva {
+  font-style: italic;
 }
 
 @media only screen and (max-width: 800px) {
@@ -77,17 +88,18 @@ section {
   }
 
   h2, h1{
-    font-size: 2.3em;
+    font-size: 1.8em;
+  left: 0%;
   }
 
   .tropezones{
-    padding-right: 10%;
-    padding-left: 5%;
+    padding-right: 0%;
+    padding-left: 20%;
   }
   
   .bechamel{
     padding-right: 5%;
-    padding-left: 20%;
+    padding-left: 5%;
   }
 }
 
@@ -106,7 +118,7 @@ img{
 
 .modal-content{
   border-radius: 50px;
-  background-color: #9a67cc;
+  background-color: #EFFBF1;
 }
 
 
@@ -127,8 +139,10 @@ img{
 }
 
 .description{
-  padding: 5%;
+  padding: 0 2% 2% 2%;
   font-family: 'telegrafregular';
+  
+  color: #C226F7;
 }
 
 .sticky-top{
@@ -142,9 +156,11 @@ img{
   color: white;
 }
 
-p{
+mark.sub_texto{
+  background-color: #D785F8;
 }
 
-mark{
-  background-color: #D785F8;
+mark.sub_title{
+  background-color: #effbf1;
+  color: #C226F7;
 }
